@@ -2,7 +2,7 @@
 
 | Branch             | Build               | Coverage            | Release              |
 | :----------------- | :------------------ | :------------------ | :------------------- |
-| **master**         | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/master.svg)](https://travis-ci.org/ontic/zend-module-skeleton)  | [![Coverage](https://img.shields.io/coveralls/ontic/zend-module-skeleton/master.svg?)](https://coveralls.io/r/ontic/zend-module-skeleton?branch=master)   | [![Release](https://img.shields.io/packagist/v/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton)    | 
+| **master**         | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/master.svg)](https://travis-ci.org/ontic/zend-module-skeleton)  | [![Coverage](https://img.shields.io/coveralls/ontic/zend-module-skeleton/master.svg)](https://coveralls.io/r/ontic/zend-module-skeleton?branch=master)   | [![Release](https://img.shields.io/packagist/v/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton)    | 
 | **develop**        | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/develop.svg)](https://travis-ci.org/ontic/zend-module-skeleton) | [![Coverage](https://img.shields.io/coveralls/ontic/zend-module-skeleton/develop.svg)](https://coveralls.io/r/ontic/zend-module-skeleton?branch=develop) | [![Release](https://img.shields.io/packagist/vpre/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton) |
 
 ## Introduction
