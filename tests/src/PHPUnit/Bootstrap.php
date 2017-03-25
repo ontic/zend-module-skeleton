@@ -45,11 +45,6 @@ class Bootstrap
 			// Include the application autoloader.
 			include $autoloadFile;
 		}
-		else
-		{
-			// We cannot continue without a composer autoload file.
-			throw new RuntimeException('Unable to locate a composer autoload file.');
-		}
 		
 		// If we are unable to locate the Zend MVC Application class.
 		if (!class_exists('Zend\Mvc\Application'))
