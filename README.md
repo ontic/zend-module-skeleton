@@ -1,9 +1,9 @@
 # Ontic Skeleton ![Status](https://img.shields.io/badge/project-maintained-brightgreen.svg)
 
-| Branch             | Build               | Coverage            | Release              |
-| :----------------- | :------------------ | :------------------ | :------------------- |
-| **master**         | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/master.svg)](https://travis-ci.org/ontic/zend-module-skeleton)  | [![Coverage](https://img.shields.io/coveralls/ontic/zend-module-skeleton/master.svg)](https://coveralls.io/r/ontic/zend-module-skeleton?branch=master)   | [![Release](https://img.shields.io/packagist/v/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton)    | 
-| **develop**        | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/develop.svg)](https://travis-ci.org/ontic/zend-module-skeleton) | [![Coverage](https://img.shields.io/coveralls/ontic/zend-module-skeleton/develop.svg)](https://coveralls.io/r/ontic/zend-module-skeleton?branch=develop) | [![Release](https://img.shields.io/packagist/vpre/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton) |
+| Branch             | Build               | Quality             | Coverage             | Release              |
+| :----------------- | :------------------ | :------------------ | :------------------- | :------------------- |
+| **master**         | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/master.svg)](https://travis-ci.org/ontic/zend-module-skeleton)  | [![Quality](https://img.shields.io/codacy/grade/e13ca517e80d42f1aff4196f02fc6399/master.svg)](https://www.codacy.com/app/ontic/zend-module-skeleton)  | [![Coverage](https://img.shields.io/codacy/coverage/e13ca517e80d42f1aff4196f02fc6399/master.svg)](https://www.codacy.com/app/ontic/zend-module-skeleton)  | [![Release](https://img.shields.io/packagist/v/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton)    | 
+| **develop**        | [![Build](https://img.shields.io/travis/ontic/zend-module-skeleton/develop.svg)](https://travis-ci.org/ontic/zend-module-skeleton) | [![Quality](https://img.shields.io/codacy/grade/e13ca517e80d42f1aff4196f02fc6399/develop.svg)](https://www.codacy.com/app/ontic/zend-module-skeleton) | [![Coverage](https://img.shields.io/codacy/coverage/e13ca517e80d42f1aff4196f02fc6399/develop.svg)](https://www.codacy.com/app/ontic/zend-module-skeleton) | [![Release](https://img.shields.io/packagist/vpre/ontic/zend-module-skeleton.svg)](https://packagist.org/packages/ontic/zend-module-skeleton) |
 
 ## Introduction
 
