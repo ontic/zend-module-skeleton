@@ -7,16 +7,16 @@
 
 ## Introduction
 
-This module serves no other purpose than providing a quick way of creating new [Zend Framework 2](http://framework.zend.com)
+This module serves no other purpose than providing a quick way of creating new [Zend Framework 3](http://framework.zend.com)
 modules. By cloning this repository and renaming certain aspects, you'll save considerable time given
-that [PHPUnit](https://phpunit.de), [Travis CI](https://travis-ci.org), [Coveralls](https://coveralls.io) and [Packagist](https://packagist.org) are already setup.
+that [PHPUnit](https://phpunit.de), [Travis CI](https://travis-ci.org), [Codacy](https://codacy.com) and [Packagist](https://packagist.org) are already setup.
 
 ## Requirements
 
 | Name                                                                                          | Version       |
 | :-------------------------------------------------------------------------------------------- | :------------ |
-[PHP](https://www.php.net/)                                                                     | `>=5.5`       |
-[Zend Framework 2](https://github.com/zendframework/zf2)                                        | `~2.5`        |
+[PHP](https://www.php.net/)                                                                     | `^7.0`        |
+[Zend MVC](https://github.com/zendframework/zend-mvc)                                           | `^3.0`        |
 
 ## Installation
 
@@ -36,18 +36,16 @@ Clone the project it into your `./vendor/` directory.
 The easiest way to install this module is via the command line:
 
 ```
-$ composer require ontic/zend-module-skeleton:~1.0
+$ composer require ontic/zend-module-skeleton:^3.0
 ```
 
 Or you could manually add this module in your `composer.json` file:
 
 ```json
 {
-	...
 	"require":
 	{
-		...
-		"ontic/zend-module-skeleton": "~1.0"
+		"ontic/zend-module-skeleton": "^3.0"
 	}
 }
 ```
@@ -56,7 +54,6 @@ Alternatively you could download the source by adding a repository to your `comp
 
 ```json
 {
-	...
 	"repositories": [
 		{
 			"type": "vcs",
@@ -65,8 +62,7 @@ Alternatively you could download the source by adding a repository to your `comp
 	],
 	"require":
 	{
-		...
-		"ontic/zend-module-skeleton": "~1.0"
+		"ontic/zend-module-skeleton": "^3.0"
 	}
 }
 ```
@@ -79,14 +75,14 @@ $ composer update
 
 ### 2.1 Enabling
 
-Enable the module and dependencies in your `application.config.php` file.
+Enable the module and dependencies in your `modules.config.php` file.
 
 ```php
 <?php
 return [
 	'modules' => [
 		// ...
-		'OnticSkeleton',
+		'Ontic\Skeleton',
 	],
 	// ...
 ];
