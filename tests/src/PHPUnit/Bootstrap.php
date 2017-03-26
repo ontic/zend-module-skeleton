@@ -18,20 +18,20 @@ class Bootstrap
 {
 	/**
 	 * Bootstrap the tests.
-	 * 
+	 *
 	 * @return void
 	 */
 	public static function init()
 	{
-        // Application root directory path.
-        $applicationPath = __DIR__.'/../../../../../';
+		// Application root directory path.
+		$applicationPath = __DIR__.'/../../../../../';
 		// Module root directory path.
 		$modulePath = __DIR__.'/../../../';
 		// Module tests directory path.
 		$testPath = __DIR__.'/../../';
-
-        // Include the system configuration file.
-        $configuration = include $testPath.'config/application.config.php';
+		
+		// Include the system configuration file.
+		$configuration = include $testPath.'config/application.config.php';
 		
 		// If a module autoload file exists.
 		if (is_file($autoloadFile = $modulePath.'vendor/autoload.php'))
@@ -69,12 +69,12 @@ class Bootstrap
 		{
 			// Retrieve the test case class.
 			$moduleTestCaseClass = $configuration['module_test_case_class'];
-
+			
 			// If the test case class has a method named setServiceManager.
 			if (method_exists($moduleTestCaseClass, 'setServiceManager'))
 			{
 				// Pass an instance of the service manager to the test case class.
-				call_user_func_array($moduleTestCaseClass.'::setServiceManager', array($serviceManager));
+				call_user_func_array($moduleTestCaseClass.'::setServiceManager', [$serviceManager]);
 			}
 		}
 	}
